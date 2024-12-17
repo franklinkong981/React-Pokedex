@@ -6,10 +6,12 @@ import defaultPokecardList from './defaultPokecardList.js';
 const Pokedex = ({pokecardList = defaultPokecardList}) => {
   return (
     <>
-      <h1>I am a Pokedex</h1>
-      <Pokecard />
-      <Pokecard />
-      <Pokecard />
+      <h1 className="Pokedex-header">Pokedex</h1>
+      <div className="Pokedex-pokecards">
+        {pokecardList.map(pokecard => (
+          <Pokecard name={pokecard.name} image={pokecard.src} type={pokecard.type} experience={pokecard.base_experience}/>
+        ))}
+      </div>
     </>
   );
 };
