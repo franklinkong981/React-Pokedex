@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Pokecard.css';
+
 const Pokecard = ({name, image, type, experience}) => {
   return (
     <div className="Pokecard">

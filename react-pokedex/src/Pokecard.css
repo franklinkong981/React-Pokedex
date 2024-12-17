@@ -1,0 +1,20 @@
+.Pokecard {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.Pokecard-name {
+  color: blue;
+  margin-bottom: 0;
+}
+
+.Pokecard-type {
+  margin-bottom: 0;
+  border: 1px solid green;
+}
+
+.Pokecard-experience {
+  border: 1px solid green;
+}
