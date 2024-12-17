@@ -3,6 +3,8 @@ import React from 'react';
 import Pokecard from './Pokecard.jsx';
 import defaultPokecardList from './defaultPokecardList.js';
 
+import './Pokedex.css';
+
 const Pokedex = ({pokecardList = defaultPokecardList}) => {
   return (
     <>
