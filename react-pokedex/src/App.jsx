@@ -1,15 +1,15 @@
 import React from 'react';
+
+import Pokegame from './Pokegame.jsx';
+
 import './App.css';
 
-import Pokedex from './Pokedex.jsx';
-
 function App() {
-
   return (
     <>
-      <Pokedex />
+      <Pokegame />
     </>
-  )
+  );
 }
 
 export default App
