@@ -1,2 +1,2 @@
 # React-Pokedex
-A Pokedex I create by using React props and components.
+A Pokedex I create by using React props, components, and Create React app/Vite.
